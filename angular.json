@@ -24,9 +24,11 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
+          
           },
           "configurations": {
             "production": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularEjemplo"
+    }
+  },
+  "defaultProject": "angularEjemplo",
+  "cli": {
+    "analytics": "ecb6f997-819a-4958-9adf-7fe63d0e1a32"
+  }
 }
